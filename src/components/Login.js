@@ -31,7 +31,7 @@ function Login() {
   };
   return (
     
-        <div className="container">
+        <div className="maindiv">
               <div className="card">
                 <h3 className='mt-5'>Login</h3>
                 <div className="card-body p-5">
