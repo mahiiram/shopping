@@ -35,7 +35,7 @@ useEffect(()=>{
                    </div>
                    <div>
                     <button onClick={()=>{handleChange(item, -1)}}> - </button>
-                    <button>{item.amount }</button>
+                    <button>{item.amount}</button>
                     <button onClick={()=>{handleChange(item, +1)}}> + </button>
                    </div>
                    <div>

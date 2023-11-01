@@ -7,7 +7,7 @@ import Description from './Description';
 function ProductDescription() {
 
      const id = useParams();
-     const paramid=  id.id.toString()
+     const paramid=  id.id
      localStorage.setItem('id',paramid)
 
   return (
