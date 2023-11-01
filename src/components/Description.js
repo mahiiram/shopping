@@ -6,7 +6,7 @@ function Description() {
    console.log(id)
   return (
     <div>
-    <div>
+    <div style={{color:'white'}}>
           <h2 style={{margin:'20px', padding:'10px'}}>Selected Product</h2>
           {List.map((product) =>
             product.id === id ? (
