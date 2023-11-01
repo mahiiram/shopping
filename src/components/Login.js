@@ -53,8 +53,8 @@ function Login() {
           
                 </div>
               </div>
-              <h6>username:test123</h6>
-              <h6>password:123456</h6>
+              <h6 style={{color:'white',marginTop:'10px'}}>username:test123</h6>
+              <h6 style={{color:'white'}}>password:123456</h6>
         </div>
 
 

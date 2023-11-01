@@ -8,8 +8,12 @@
      color: whitesmoke;
      display: flex;
      justify-content: space-between;
-     
 }
 .my_shop{
      cursor: none;
+}
+.cart-div{
+     display: flex;
+     justify-content: space-between;
+     margin: 0;
 }
