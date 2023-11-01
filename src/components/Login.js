@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import '../styles/Login.css'
 import { useNavigate } from 'react-router-dom'
 
 function Login() {
@@ -29,16 +30,11 @@ function Login() {
     }
   };
   return (
-    <section className="bg-image">
-
-      <div className="mask d-flex align-items-center h-100">
-        <div className="container h-100">
-          <div className="row d-flex justify-content-center align-items-center mt-5">
-            <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-              <div className="card" style={{ borderRadius: "15px" }}>
+    
+        <div className="container">
+              <div className="card">
+                <h3 className='mt-5'>Login</h3>
                 <div className="card-body p-5">
-        
-
                   <form onSubmit={(e) => handleSubmit(e)}>
 
                     <div className="form-outline mb-4">
@@ -53,18 +49,15 @@ function Login() {
                       <button type="submit"
                         className="btn btn-success">Login</button>
                     </div>
-
-
                   </form>
-
+          
                 </div>
               </div>
-            </div>
-          </div>
+              <h6>username:test123</h6>
+              <h6>password:123456</h6>
         </div>
-      </div>
 
-    </section>
+
   )
 }
 
